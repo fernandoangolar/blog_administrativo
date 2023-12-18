@@ -1,0 +1,43 @@
+1*
+
+    instalar as dependencias que não necessarias
+        1 - npm init
+        2 - npm install --save express
+        3 - npm install --save sequelize
+        4 - npm install --save mysql2 
+        5 - npm install body-parser
+        6 - nmp install --save ejs
+        7 - npm install --save-dev nodemon
+
+2*
+
+    configurar o view engine
+    app.set('view engine', 'ejs')
+
+
+3* 
+
+    const bodyparser = require('body-parser')
+
+    configurar o bady parse -> é usado para trabalhar com formulario
+    app.use('bodyParse.urlencode( {extends: false} )')
+    app.use(bodyparser.json())
+
+
+
+4*
+
+    criar um arquivo public
+    app.use(express.static('public')) -> para usar os arquivos static como css etc...
+
+
+5*
+
+    criar um arquivo database
+    const  = require('database')
+
+
+6* configuração de boostrap
+
+
+7 * Separar os arquivos
