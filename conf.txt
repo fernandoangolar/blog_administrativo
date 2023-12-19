@@ -6,7 +6,7 @@
         3 - npm install --save sequelize
         4 - npm install --save mysql2 
         5 - npm install body-parser
-        6 - nmp install --save ejs
+        6 - nmp install --save ejsconst Article = require('/articles/Article')
         7 - npm install --save-dev nodemon
 
 2*
@@ -41,3 +41,10 @@
 
 
 7 * Separar os arquivos
+
+8 * criar os models
+
+9 * relacionamentos no sequelize
+
+    Para fazer um relacionamento um para um no sequelize é utilizado o BelongsTo()
+    Para fazer um relacionamento um para muitos no sequelize é utilizado o hasMany()
